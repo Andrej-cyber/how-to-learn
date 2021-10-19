@@ -16,7 +16,7 @@
   /* выше установили ограничения для секции */
   display: flex;
   position: relative;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
 .logo_place_header {
   position: absolute;
@@ -72,10 +72,6 @@
   z-index: 0;
   top: 64px;
   background-color: #2f80ed;
-}
-
-/* .content {
-  position: relative; */
 }
 .description {
   display: flex;
@@ -186,7 +182,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   position: relative;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
 .feynman__image {
   position: absolute;
@@ -235,7 +231,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color:  #000000;
+  background-color: #000000;
 }
 
 .kaufman__title_theme_dark {
@@ -308,7 +304,7 @@
   display: flex;
   justify-content: center;
   min-height: 350px;
-  background-color:  #000000;
+  background-color: #000000;
 }
 .footer__columns {
   display: flex;
@@ -360,6 +356,7 @@
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 16px;
+  border: 1px solid red;
 }
 .footer__column-link {
   color: white;
@@ -367,6 +364,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  border: 1px solid red;
 }
 .footer__column_content_social {
   display: flex;
@@ -379,5 +377,5 @@
   height: 16px;
   background-color: #1f1f1f;
   margin-right: 10px;
+  border: 1px solid red;
 }
-

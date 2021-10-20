@@ -356,7 +356,6 @@
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 16px;
-  border: 1px solid red;
 }
 .footer__column-link {
   color: white;
@@ -364,7 +363,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid red;
 }
 .footer__column_content_social {
   display: flex;
@@ -377,5 +375,5 @@
   height: 16px;
   background-color: #1f1f1f;
   margin-right: 10px;
-  border: 1px solid red;
+  margin-bottom: 0;
 }

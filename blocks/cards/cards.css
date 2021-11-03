@@ -1,10 +1,7 @@
 .cards {
-  margin-left: -50px;
-  margin-right: -50px;
   width: 920px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0 auto;

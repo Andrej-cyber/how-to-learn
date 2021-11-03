@@ -5,4 +5,5 @@
   margin-left: 0;
   margin-right: 0;
   z-index: 1;
+  object-fit: cover;
 }

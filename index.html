@@ -57,7 +57,7 @@
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-          <section class="cards">
+          <div class="cards">
             <div class="cards__item">
               <img
                 class="cards__image"
@@ -118,31 +118,25 @@
                 кажется, что вы&nbsp;владеете новой темой.
               </p>
             </div>
-          </section>
+          </div>
         </section>
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-          <section class="video__iframes">
-            <div class="video__iframe">
-              <iframe
-                id="ytplayer1"
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/5MgBikgcWnY"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="video__iframe">
-              <iframe
-                id="ytplayer2"
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/arj7oStGLkU"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </section>
+          <div class="video__iframes">
+            <iframe
+              class="video__iframe"
+              id="ytplayer1"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              id="ytplayer2"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
         <section class="oakley">
           <article class="two-columns oakley-columns">
@@ -163,71 +157,70 @@
           </article>
         </section>
         <section class="feynman">
-          <div class="feynman__image"></div>
           <h2 class="feynman__title">Метод Фейнмана</h2>
-          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a href="#" class="feynman__link link">Подробнее&#8594;</a>
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
           <p class="section-subtitle">Про учёбу и мозг</p>
-          <div class="table">
-            <div class="table__cell">
+          <ul class="table">
+            <li class="table__cell">
               <h3 class="table__heading">86 миллиардов</h3>
               <p class="table__text">Число нейронов в мозге человека</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">2.1 миллиарда</h3>
               <p class="table__text">
                 Число нуждающихся в повышении квалификации
               </p>
               <p class="table__text">Всемирный Банк, 2017</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">1000 терабайт</h3>
               <p class="table__text">Объём памяти человека</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">500 триллионов</h3>
               <p class="table__text">
                 Число ответственных за обучение нервных синапсов у взрослого
                 человека
               </p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">420 миллионов</h3>
               <p class="table__text">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
               <p class="table__text">Всемирный Банк, 2017</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">17–20 лет</h3>
               <p class="table__text">Пик обучаемости</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">1885 год</h3>
               <p class="table__text">Открытие кривой забывания</p>
-            </div>
-            <div class="table__cell">
+            </li>
+            <li class="table__cell">
               <h3 class="table__heading">1889 год</h3>
               <p class="table__text">Открытие условного рефлекса</p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — школа</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Страсть и&nbsp;новаторство Сала Хана меняют процесс обучения
               миллионов студентов по&nbsp;всему миру. Книгу &laquo;Весь
               мир&nbsp;&mdash; школа&raquo; нужно прочитать всем, кто занимается
               образованием&nbsp;&mdash; так учащиеся повсюду смогут получить
               навыки и&nbsp;знания, которые приносят успех в&nbsp;школе, карьере
               и&nbsp;жизни.
-            </p>
+            </blockquote>
             <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__block-container">
@@ -236,7 +229,9 @@
                 src="./images/khan-book.jpg"
                 alt="Обложка книги Салмана Хана."
               />
-              <a href="#" class="khan__buy-link link">Купить книгу&#8594;</a>
+              <a href="#" target="_blank" class="khan__buy-link link"
+                >Купить книгу&#8594;</a
+              >
             </div>
           </div>
         </section>
@@ -316,7 +311,7 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
-          <section class="resources__logo-zone">
+          <div class="resources__logo-zone">
             <a
               href="https://arzamas.academy/"
               target="_blank"
@@ -324,7 +319,7 @@
               ><img
                 class="resources__logo"
                 src="./images/logo/resources-arzamas.svg"
-                alt="Арзамас. Ссылка на сайт."
+                alt="Логотип проекта Арзамас."
             /></a>
             <a
               href="https://nplus1.ru/"
@@ -333,8 +328,7 @@
               ><img
                 class="resources__logo"
                 src="./images/logo/resources-n1.svg"
-                lang="en"
-                alt="N+1. Ссылка на сайт."
+                alt="Логотип проекта N+1."
             /></a>
             <a
               href="https://strelka.com/"
@@ -343,7 +337,7 @@
               ><img
                 class="resources__logo"
                 src="./images/logo/resources-strelka.svg"
-                alt="Стрелка. Ссылка на сайт."
+                alt="Логотип проекта Стрелка."
             /></a>
             <a
               href="https://www.polka.academy/"
@@ -352,9 +346,9 @@
               ><img
                 class="resources__logo"
                 src="./images/logo/resources-polka.svg"
-                alt="Полка. Ссылка на сайт."
+                alt="Логотип проекта Полка."
             /></a>
-          </section>
+          </div>
         </section>
       </main>
       <footer class="footer">

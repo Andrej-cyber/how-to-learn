@@ -6,4 +6,5 @@
   margin-right: 0;
   z-index: 1;
   object-position: left bottom;
+  object-fit: fill;
 }

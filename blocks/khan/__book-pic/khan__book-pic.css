@@ -5,6 +5,6 @@
   margin-left: 0;
   margin-right: 0;
   z-index: 1;
-  object-position: left bottom;
-  object-fit: fill;
+  object-position: top;
+  object-fit: cover;
 }
